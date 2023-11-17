@@ -1,0 +1,119 @@
+<DOCTYPE html>
+<html>
+<head>
+    <title> Home </title >
+    <meta charset="UTF-8">
+    <meta name="author" content="Maan Joy L. Milloren"> 
+    <meta grade="9" content="Sodium">
+    <meta name="keyword" content="HTML,CSS,JavaScript">
+    <meta name="revised" content="22-10-23">
+    <link rel="stylesheet" type="text/css" href="#">
+</head>
+<body>
+    <a href="#cat1" class="cat">Hello World!</a>
+    <a href="#dog1" class="dog">The World is Mine!</a>
+    <br>
+    <div id="cat1">Keep Yourself Safe!</div>
+    <div id="dog1">You're Amazing!</div>
+</body>
+<style>
+    
+    body{margin-top: 15px;}
+    
+     a.cat:link{
+        text-decoration: none;
+        font-size: 35px; 
+        color:royalblue; 
+        background-color:cornsilk; 
+        border: 2px outset royalblue;
+        padding:5px;
+        margin: 10px;
+        transition: .5s;
+    }
+    a.cat:visited{
+        color:blanchedalmond; 
+        background-color: skyblue; 
+        border: 2px outset blanchedalmond;
+        transition: .5s;
+    }
+    a.cat:hover{
+        color:lightyellow; 
+        background-color:powderblue; 
+        border: 2px inset lightyellow;
+        transition: .5s;        
+    }
+    a.cat:active{
+        color:pink; 
+        background-color:cornflowerblue; 
+        border: 2px inset pink;
+        transition: .5s;
+    }
+    
+     a.dog:link{
+        text-decoration: none;
+        font-size: 35px; 
+        color:coral; 
+        background-color:paleturquoise; 
+        border: 2px outset coral;
+        padding:5px; 
+        margin: 10px;
+        transition: .5s;
+    }
+    a.dog:visited{
+        color:floralwhite; 
+        background-color: lightskyblue; 
+        border: 2px outset floralwhite;
+        transition: .5s;
+    }
+    a.dog:hover{
+        color:lemonchiffon; 
+        background-color:lightblue; 
+        border: 2px inset lemonchiffon;
+        transition: .5s;        
+    }
+    a.dog:active{
+        color:ivory; 
+        background-color:dodgerblue; 
+        border: 2px inset ivory;
+        transition: .5s;
+    }
+    
+    #cat1{
+        color: lightcoral;
+        font-size: 70px;
+        padding: 20px;
+        border: 2px dashed pink;
+        background-color: white;
+        width: 320px;
+        margin:10px;
+        transition: 1s;
+    }
+    
+    #cat1:target{
+        border: 2px dashed lightgoldenrodyellow;
+        background-color: pink;
+        color: lightyellow;
+        transition: .4s;
+    }
+    
+    #dog1{
+        font-size: 70px;
+        color: firebrick;
+        padding: 20px;
+        border: 2px dashed seagreen;
+        background-color: darkseagreen;
+        width: 320px;
+        margin:10px;
+        transition: .4s;
+    }
+    
+    #dog1:target{
+        color: darkred;
+        background-color: forestgreen;
+        border: 10px dotted green;
+        transition: .4s;
+    }
+    
+    
+</style>
+</html>
